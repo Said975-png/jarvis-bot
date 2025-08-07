@@ -4,5 +4,4 @@ services:
     env: docker
     dockerfilePath: ./Dockerfile
     buildCommand: ""
-    startCommand: "python bot.py"
     plan: free
