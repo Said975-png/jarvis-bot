@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: jarvis-bot
+    env: docker
+    dockerfilePath: ./Dockerfile
+    buildCommand: ""
+    startCommand: "python bot.py"
+    instances: 1
+    disk: 1GB
+    plan: free
