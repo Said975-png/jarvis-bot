@@ -5,6 +5,5 @@ services:
     dockerfilePath: ./Dockerfile
     buildCommand: ""
     startCommand: "python bot.py"
-    instances: 1
-    disk: 1GB
     plan: free
+    disk: 1024 # 1GB в мегабайтах
