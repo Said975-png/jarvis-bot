@@ -6,4 +6,3 @@ services:
     buildCommand: ""
     startCommand: "python bot.py"
     plan: free
-    disk: 1024 # 1GB в мегабайтах
