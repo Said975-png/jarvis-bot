@@ -20,3 +20,4 @@ EXPOSE 8080
 
 # Команда для запуска бота
 CMD ["python", "bot.py"]
+RUN pip install Pillow
